@@ -25,7 +25,7 @@ struct FlappyBirdApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlappyBirdGameView()
         }
         .modelContainer(sharedModelContainer)
     }
